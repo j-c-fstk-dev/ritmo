@@ -1,0 +1,20 @@
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:statusBarColor">#F7F5F0</item>
+        <item name="android:navigationBarColor">#F7F5F0</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="RitmoEmojiPickerLight" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorBackground">#FFFFFF</item>
+        <item name="android:textColorPrimary">#202824</item>
+        <item name="colorControlNormal">#46524D</item>
+        <item name="colorAccent">#286B5E</item>
+    </style>
+    <style name="RitmoEmojiPickerDark" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:colorBackground">#202824</item>
+        <item name="android:textColorPrimary">#F0F3EF</item>
+        <item name="colorControlNormal">#D0D8D2</item>
+        <item name="colorAccent">#9AC6B7</item>
+    </style>
+</resources>

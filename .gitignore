@@ -1,0 +1,56 @@
+# Gradle, Android Studio e artefatos de compilação
+.gradle/
+.kotlin/
+.idea/
+*.iml
+build/
+out/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.apks
+/dist/
+
+# Assinatura, credenciais e configurações locais
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+keystore.properties
+key.properties
+signing.properties
+secrets.properties
+credentials.json
+service-account*.json
+google-services.json
+.env
+.env.*
+!.env.example
+/.aws/
+/.agents/
+/.codex/
+
+# Dados locais, backups e modelos baixados
+*.ritmo
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+voice-models/
+vosk-model-*/
+vosk-model-*.zip
+*.log
+.DS_Store
+Thumbs.db
+
+# Material de referência mantido na pasta local
+referencias/
+imagens referencia/
+Ditado por voz offline-first no Android (Kotlin).md
